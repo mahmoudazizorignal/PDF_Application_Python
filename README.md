@@ -4,9 +4,5 @@ Merge Two PDF, Extract a Page from a PDF
 and Split a PDF into Separated Pages
 
 ## IMPORTANT NOTE
-the file of your Project must contain Additional three-empty folders 
-    1- Spliter
-    2- Merger
-    3- Extractor
-
+the file of your Project must contain Additional three-empty folders with names (Spliter, Merger, Extractor)
 ,In order to store the results of each operation done.
