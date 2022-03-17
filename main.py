@@ -1,3 +1,10 @@
+"""""
+
+    Program: PDF Application GUI
+    Author: Mahmoud Mamdouh AbdelAziz
+            
+"""""
+
 
 from tkinter import *
 import tkinter.font as font
@@ -322,17 +329,14 @@ task4.grid(row=4, column=1, columnspan=2, padx=2, pady=2)
 
 # Write the Name of the Authors
 Credit = Label(root, text="BY:", font=20, borderwidth=10, fg='#000000')
-one = Label(root, text="[1] MAHMOUD MAMDOUH ABDELAZIZ (ID: 20210376)", font=20, borderwidth=10, fg='#000000')
-two = Label(root, text="[2] YOUSUF MOUNIR (ID: 20210489)", font=20, borderwidth=10, fg='#000000')
-three = Label(root, text="[3] ALY KHALED (ID: 20210244)", font=20, borderwidth=10, fg='#000000')
+one = Label(root, text="MAHMOUD MAMDOUH ABDELAZIZ", font=20, borderwidth=10, fg='#000000')
+
 Credit['font'] = font_style
 one['font'] = font_style
-two['font'] = font_style
-three['font'] = font_style
+
 
 # Putting The name of the Authors onto the screen
 Credit.grid(row=5, column=1, sticky=W, pady=0)
 one.grid(row=6, column=1, sticky=W, pady=0)
-two.grid(row=7, column=1, sticky=W, pady=0)
-three.grid(row=8, column=1, sticky=W, pady=0)
+
 root.mainloop()
